@@ -1,0 +1,46 @@
+header * {
+    background: #ffffff;
+    z-index: 2;
+  }
+  
+  main {
+    padding-top: 120px;
+  }
+  
+  .card {
+    max-width: 300px;
+    height: 400px;
+  }
+  
+  #num {
+    position: relative;
+  }
+  
+  #icn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #f35a5a;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #cart-item div*:hover {
+    background: #eee;
+  }
+  .navbar{
+    background-color: rgb(242, 149, 72);
+  }
+  .navbar a{
+    list-style: none;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: #e4740b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: georgian;
+    text-decoration: none;
+  }
